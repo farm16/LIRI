@@ -1,4 +1,4 @@
-# I created an shell script to store all my env vars and ran:
+# I created a shell script to store all my env vars and ran:
 
 - concert-this
 - spotify-this-song
