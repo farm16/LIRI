@@ -1,28 +1,25 @@
-# I created a shell script to store all my env vars and ran:
-
+this NODE JS Script will run multiple rearches on various APIS, you can run the following commands to run LIRI: 
 - concert-this
 - spotify-this-song
 - movie-this
 - do-what-it-says
-  using the following :
+
+  EXAMPLES:
   "liri.js concert-this daddy yankee"
   "liri.js spotify-this-song thotiana"
   "liri.js movie-this the avengers"
   "liri.js do-what-it-says"
+  
+# EXAMPLE VIDEO -> link to the video here <https://drive.google.com/file/d/1okAk9QhAaTF9zHUp3BR7UrsdrzABdk3r/view>
 
+# I created a shell script to store all my env vars and ran:
 # I posted a copy of the script LIRI_Script_Example.sh just put your own keys and run it by :
 
 `$ chmod u+x LIRI_Script_Example.sh`
 then
 `./LIRI_Script_Example.sh`
 
-#link to the video here <https://drive.google.com/file/d/1okAk9QhAaTF9zHUp3BR7UrsdrzABdk3r/view>
-
-Make it so liri.js can take in one of the following commands:
-concert-this
-spotify-this-song
-movie-this
-do-what-it-says
+# Breakdown of what each Script executes : 
 
 1. `node liri.js concert-this <artist/band name here>`
 
